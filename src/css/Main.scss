@@ -1,0 +1,116 @@
+ 
+// color main component
+$primary   : #000000;
+$secondary :#FFFFFF;
+$third : #00264d;  // rgb(0, 38, 77)
+$forth : #f8f9fa; //rgb(122, 122, 82)
+$Fifth :#00802b; //rgb(0, 128, 43)
+$Sex:rgb(0, 38, 77,0.8);
+$required : #f57f6c ;
+
+//no uset yet
+$Sex1 : #757575;
+$border :#9E8A8A;
+$Seven :#00b33c;
+ 
+ // color for text 
+ $t_primary : #000000;
+ $t_secondary : #FFFFFF;
+ $t_third : #00264d ;
+ $t_forth : #757575;
+
+
+ 
+ $t-Sex :#ff7361;
+ $t_secondary11 : #575757;
+ $t_Fifth : #CBCBCB;
+
+  
+
+ // this this for request color 
+
+
+ // this is for anmaitons 
+ .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+ 
+    animation-name: hvr-hang-sink, hvr-hang;
+   
+    animation-duration: .3s, 1.5s;
+   
+    animation-delay: 0s, .3s;
+    
+    animation-timing-function: ease-out, ease-in-out;
+    
+    animation-iteration-count: 1, infinite;
+   
+    animation-fill-mode: forwards;
+ 
+    animation-direction: normal, alternate;
+}
+.hvr-hang {
+    display: inline-block;
+    vertical-align: middle;
+ 
+   
+}
+ @keyframes hvr-hang-sink {
+    100% {
+         
+        transform: translateY(-8px);
+    }
+ }
+ @keyframes   hvr-hang
+  {
+    0% {
+        
+        transform: translateY(-8px);
+    }
+    50% {
+        
+        transform: translateY(-4px);
+    }
+    100% {
+        
+        transform: translateY(-8px);
+    }
+ }
+ .hvr_float_shadow:hover, .hvr_float_shadow:focus, .hvr_float_shadow:active {
+    
+    transform: translateY(-5px);
+}
+.hvr_float_shadow {
+    display: inline-block;
+    vertical-align: middle;
+   
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    margin-bottom: 25px;
+    transition-duration: 0.3s;
+     
+    transition-property: transform;
+}
+.hvr_float_shadow:hover:before, .hvr_float_shadow:focus:before, .hvr_float_shadow:active:before {
+    opacity: 1;
+     transform: translateY(5px);
+}
+.hvr_float_shadow:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 25%;
+    height: 19px;
+    width: 50%;
+    /*
+     left: 33%;
+    height: 15px;
+    width: 35%;
+    */
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%); 
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+}

@@ -1,0 +1,177 @@
+{
+  "Global":{
+    "Save":"حفظ" ,
+    "Total" : " المبلغ الكلي:",
+    "confirm":"تاكيد",
+    "amount":"المبلغ الذي سيتم إرجاعه:",
+    "Sure":"  تاكيد  هذا الحجز",
+   "AddNew":"إضافة كلمة سر جديدة  " ,
+   "OldPassword":"كلمة المرور القديمة" ,
+   "Error" :"حصل خطأ ما"
+  },
+  "LogIn" :{
+   "LogIn":"تسجيل دخول",
+   "Email":"البريد الكتروني",
+   "Password":"كلمة المرور"
+  },
+  "Header" : {
+    "language" : "اللغة",
+    "Aribc" :"عربي",
+    "English" :"English",
+    "LogOut":"تسجيل خروج",
+    "Company":"الشركات",
+    "AddManager":"إضافة مدير",
+    "Logout":"تسجيل خروج",
+    "Home":"الرئيسية" ,
+    "Office":"مكاتب",
+    "Offer":"عروض" ,
+    "Employe":"الموظفين" ,
+    "Transport":"وسيلة النقل" ,
+  "UnConfirmed":" غير مثبت",
+  "Confirmed":"  المثبت",
+  "CanceledReservations":"الحجوزات الملغية",
+  "changePassword":"تغير كلمة المرور"
+
+
+  },
+  "Company" : {
+    "Add":"إضافة",
+    "AddNew" :{
+      "AddNew": "إضافة شركة جديدة",
+      "Type" :"النوع",
+      "NameAr":"الإسم ب اللغة العربية",
+      "NameEn":"الإسم ب اللغة الانكليزية",
+      "DescriptionAr":"الوصف ب اللغة العربية",
+      "DescriptionEn":"الوصف ب اللغة الإنكليزية"
+     },
+     "AddManager":{
+      "name":" الاسم ب العربي",
+      "en_name":"الاسم ب الانكليزية",
+      "AddManager":"إضافة مدير جديد",
+      "Email":"الإيميل",
+      "Password":"كلمة المرور",
+      "Conform":"تأكيد كلمة المرور",
+      "nationality":"الجنسية ب العربي ",
+      "en_nationality":"الجنسية ب الإنكليزية",
+      "phone":"رقم الهاتف"
+     }
+  },
+  "Statics" :{
+    "Statics":"الإحصائيات",
+    "completed_trips":"الرحلات المنتهية",
+  "completedDetails":"الرحلات التي تمت بنجاح",
+
+    "coming_trips":"الرحلات القادمة ",
+  "comingDetails":"الرحلات التي ستحدث قريبا",
+
+    "clients" :"العملاء",
+  "Confirmed":"تم التثبيت ",
+  "Unconfirmed":" لم يتم التثبيت"
+    },
+    "Office" :{
+      "Office": "مكاتب",
+      "name" :"الاسم",
+      "phone":"رقم الهاتف",
+      "location_name":"الموقع",
+      "OpenClose" :"فتح & إغلاق",
+      "status":"حالة المكتب",
+   "Service":"ضمن الخدمة",
+   "archive":"ضمن الارشيف",
+      "AddNew" :{
+        "AddNew": "إضافة مكتب جديد",
+        "NameAr":"الإسم ب اللغة العربية",
+        "NameEn":"الإسم ب اللغة الانكليزية",
+        "Mtn_phone":"رقم  هاتف Mtn",
+        "Syriatel_phone":" رقم الهاتف Syriatel",
+        "location_name":"اسم الموقع ب العربي",
+        "location_en_name":"اسم الموقع ب الانكليزي",
+      
+        "Open_at" :" يفتح عند ",
+        "Close_at" :"يغلق عند"
+       }
+     },
+     "Offer" :{
+      "StartAt":"من:",
+      "EndAt":"إلى:",
+      "AddNew": "إضافة عرض جديد",
+      "percentage":"مقدار الحسم"
+
+     },
+     "Employee" :{
+      "Name":"الاسم",
+      "Phone":"رقم الهاتف",
+      "Nationality":"الجنسية",
+      "Status":"الحالة"
+    },
+    "Trip" :{
+
+      "Trip":"الرحلات",
+       "departure_station":"محطة المغادرة",
+       "Arrival_station":"محطة الوصول",
+       "departure_time":"الانطلاق" ,
+       "arrival_time":"الوصول",
+       "number_of_seats":"المقاعد المتبفية",
+       "confirm_date":"تاريخ التاكيد" ,
+       "cost":"التكلفة",
+       "AddNew" :{
+  "AddNew":"إضافة رحلة جديدة",
+
+        "NameAr":" اسم الرحلة ب العربي",
+        "NameEn":"اسم الرحلة ب الانلكيزي" ,
+        "Transport":"وسيلة النقل",
+        "departure_station":"محطة المغادرة",
+        "arrival_station":"محطة الوصول",
+        "departure_time":"تاريخ المغادرة",
+        "arrival_time":"تاريخ الوصول",
+        "cost":"التكلفة",
+        "offer":"العروض",
+        "confirm_date":"تاريخ التاكيد",
+        "details":"تفاصيل ب العربي",
+        "max_weight":"اقصى وزن",
+        "en_details":"تفاصيل ب الانكليزي"
+      
+      }
+       },
+       "Transport": {
+        "AddNew" :"إضافة وسيلة نقل  جديدة",
+   "Type":"نوع وسيلة النقل"
+        
+       },
+       "OneTrip" :{
+          "id":"Number of Trip",
+          "departure_station":"محطة المغادرة",
+        "arrival_station":"محطة الوصول",
+        "departure_time":"تاريخ المغادرة",
+        "arrival_time":"تاريخ الوصول",
+        "cost":"التكلفة",
+        "offer":"العروض",
+        "confirm_date":"تاريخ التاكيد",
+        "details":"تفاصيل ",
+        "max_weight":"اقصى وزن" ,
+  "Number":"عدد المقاعد المتوفرة " ,
+  "Offer":"العرض " ,
+  "confirm":"تثبيت حجز" 
+
+       },
+       "reservation":{
+        "AddNew": "إضافة حجز جديدة" ,
+        "seats":"المقاعد" ,
+        "Name":"الاسم",
+        "user_phone":"رقم الهاتف",
+        "total_cost":"المبلغ ",
+        "number_of_seats":"عدد المقاعد" ,
+        "returned_amount":"المبلغ المسترجع",
+        "tripNumberUn":"الحجوزات الغير مؤكدة للرحلة رقم",
+        "tripNumber":"الحجوزات المؤكدة للرحلة رقم"
+      },
+  "ConfirmDelete":" هل أنت متأكد من حذف هذا العنصر ؟",
+  "Yes":"حذف",
+  "Yes1":"نعم",
+
+  "No":"إلغاء" ,
+  "NotAllowed":"غير مسموح",
+  "Restor" :"هل انت متاكد من استعادة المكتب"
+
+
+
+  }

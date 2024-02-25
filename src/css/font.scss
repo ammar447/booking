@@ -1,0 +1,81 @@
+  @font-face {
+    font-family: "Shorooq";
+    src: url('/src/css/fonts/Shorooq.ttf') format("truetype");
+     font-weight: 500;
+    font-style:  normal;
+  }
+  @font-face {
+    font-family: "ElMessiri";
+    src: url('/src/css/fonts/ElMessiri-Regular.ttf') format("truetype");
+     font-weight: 500;
+    font-style:  normal;
+  }
+
+  .FontBold {
+    font-weight: bold;
+} 
+.Font1 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+
+}
+.Font1_14 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+  font-size: 14px; 
+}
+.Font1_16 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+  font-size: 16px;  
+}
+.Font1_18 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+  font-size: 18px;  
+}
+.Font1_20 {
+  font-family: 'Fairuz' , 'Shorooq'  ;
+  font-size: 20px;  
+}
+.Font1_22 {
+  font-family: 'Fairuz' , 'Shorooq'  ;
+  font-size: 22px;  
+}
+.Font1_25 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+  font-size: 25px;  
+}
+.Font1_28 {
+  font-family: 'Fairuz' , 'Shorooq' ;
+  font-size: 28px;  
+}
+.F2 {
+  font-family:  'ElMessiri' , 'Fairuz' ;
+
+}
+
+.F2_16 {
+  font-family:  'ElMessiri' , 'Fairuz' ;
+  font-size: 16px;  
+}
+.F2_18 {
+  font-family:  'ElMessiri' , 'Fairuz'   ;
+  font-size: 18px;  
+}
+.F2_20 {
+  font-family:  'ElMessiri' , 'Fairuz'    ;
+  font-size: 20px;  
+}
+.F2_22 {
+  font-family:  'ElMessiri' , 'Fairuz'    ;
+  font-size: 22px;  
+}
+.F2_25 {
+  font-family:  'ElMessiri' ,'Fairuz'   ;
+  font-size: 25px;  
+}
+.F2_26 {
+  font-family:  'ElMessiri' ,'Fairuz'  !important ;
+  font-size: 26px !important;  
+}
+.F2_28 {
+  font-family: 'ElMessiri', 'Fairuz'    ;
+  font-size: 28px;  
+}

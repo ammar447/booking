@@ -1,0 +1,170 @@
+{
+  "Global":{
+    "Save":"Save",
+    "Total" : "The total amount :",
+    "confirm":"Confirm",
+    "amount":"returned amount:",
+    "Sure":"Are you sure to confirm the reservation",
+"AddNew":"Add a new Password" ,
+"OldPassword":"Old Password",
+"Error" :"Something went wrong" 
+
+  },
+  "LogIn" :{
+    "LogIn":"Log In",
+    "Email":"Email",
+    "Password":"Password"
+   },
+   "Header" : {
+    "language" : "Language",
+    "Aribc" :"Arabic",
+    "English" :"English",
+    "LogOut":"log out",
+    "Company":"Company",
+    "AddManager":"Add manager",
+    "Logout":"Logout",
+    "Home":"Home" ,
+    "Office":"Office",
+    "Offer":"Offer",
+    "Employe":"Employe" ,
+    "Transport":"Transport" ,
+    "UnConfirmed":"UnConfirmed  ",
+    "Confirmed":"Confirmed  ",
+    "CanceledReservations":"Delete Reservation",
+    "changePassword":"Change Password"
+
+  } ,
+  "Company" : {
+    "Add":"Add",
+    "AddNew" :{
+     "AddNew": "Add New Company",
+     "Type" :"Type",
+     "NameAr":"Name in Arabic",
+     "NameEn":"Name in English",
+     "DescriptionAr":"Description in Arabic",
+     "DescriptionEn":"Description in English"
+    },
+    "AddManager":{
+      "name":"Name in Arabic",
+      "en_name":"Name in English",
+      "AddManager":"Add New Manager",
+      "Email":"Email",
+      "Password":"Password",
+      "Conform":"Conform Password",
+      "nationality":"nationality in Arabic ",
+      "en_nationality":"nationality in English",
+      "phone":"Phone"
+     }
+  },
+  "Statics" :{
+  "Statics":"Statics",
+  "completed_trips":"Completed trips",
+  "completedDetails":"Trips completed successfully",
+  "coming_trips":"Coming trips",
+  "comingDetails":"Trips that will happen soon",
+  "clients" :"clients",
+  "Confirmed":"Confirmed",
+  "Unconfirmed":"Unconfirmed"
+
+  },
+  "Office" :{
+   "Office": "Office",
+   "name" :"name",
+   "phone":"phone",
+   "location_name":"location Name",
+   "OpenClose" :"Open&Close",
+   "status":"status",
+   "Service":"In the service",
+   "archive":"in the archive",
+   "AddNew" :{
+    "AddNew": "Add New Office",
+    "NameAr":"Name in Arabic",
+    "NameEn":"Name in English",
+    "Mtn_phone":"Mtn phone",
+    "Syriatel_phone":"Syriatel phone",
+    "location_name":"Location name",
+    "location_en_name":"Location name in English",
+    "Open_at" :"open at",
+    "Close_at" :"Close at"
+   }
+  },
+  "Offer" :{
+   "StartAt":"Start At:",
+   "EndAt":"End At:",
+   "AddNew": "Add New Offer",
+   "percentage":"percentage"
+
+  },
+  "Employee" :{
+    "Name":"Name",
+    "Phone":"Phone",
+    "Nationality":"Nationality",
+    "Status":"Status"
+  },
+  "Trip" :{
+    "Trip":"Trip",
+ "departure_station":"Departure station",
+ "Arrival_station":" Arrival station",
+ "departure_time":"Departure" ,
+ "arrival_time":"Arrival",
+"number_of_seats":"Seats",
+"confirm_date":"Confirm Date" ,
+"cost":"Cost",
+"AddNew" :{
+  "AddNew":"Add New Trip",
+  "NameAr":"Name  Trip  in Arabic",
+  "NameEn":"Name Trip in English" ,
+  "Transport":"Transport",
+  "departure_station":"Departure station",
+  "arrival_station":"Arrival station",
+  "departure_time":"departure",
+  "arrival_time":"arrival",
+  "cost":"cost",
+  "offer":"offer",
+  "confirm_date":"Confirm Date",
+  "details":"Details",
+  "max_weight":"Max weight",
+  "en_details":"Details in English"
+
+}
+  },
+  "Transport": {
+   "AddNew" :"Add New Transport",
+   "Type":"Transport Type "
+  },
+  "OneTrip" :{
+    "id":"Number of Trip",
+    "departure_station":"Departure station",
+  "arrival_station":"Arrival station",
+  "departure_time":"departure",
+  "arrival_time":"arrival",
+  "cost":"cost",
+  "offer":"offer",
+  "confirm_date":"Confirm Date",
+  "details":"Details",
+  "max_weight":"Max weight" ,
+  "Number":"Number of seats" ,
+  "Offer":"Offer" ,
+  "confirm":"Confirm"
+ },
+ "reservation":{
+   "AddNew":"Add a new reservation",
+   "seats":"Seats" ,
+   "Name":"Name",
+   "user_phone":"Phone",
+   "total_cost":"Total cost",
+   "number_of_seats":"Number of seats", 
+   "returned_amount":"returned Amount" ,
+   "tripNumberUn":"Unconfirmed reservations for trip number",
+   "tripNumber":"confirmed reservations for trip number"
+
+
+ },
+  "ConfirmDelete":"Are you sure to delete this item?",
+  "Yes":"Delete",
+  "Yes1":"Yes",
+
+  "No":"Cancal" ,
+  "NotAllowed":"not allowed" ,
+  "Restor" :"Are you sure to restore the office"
+}
